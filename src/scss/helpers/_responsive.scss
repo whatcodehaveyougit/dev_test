@@ -1,0 +1,13 @@
+// RESPONSIVE
+
+// Small devices (landscape phones, 576px and up)
+$phone: "screen and ( max-width: rem(576) )";
+
+// Medium devices (tablets portrait)
+$ipad_portrait: "screen and ( max-width: rem(769) )";
+
+// Medium devices (tablets landscape)
+$ipad_landscape: "screen and ( max-width: rem(1024))";
+
+// Desktop
+$desktop: "screen and ( min-width: rem(1025) )";

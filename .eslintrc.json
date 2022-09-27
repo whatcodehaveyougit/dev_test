@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["unused-imports", "sonarjs", "prettier"],
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018, // Allows for the parsing of modern ECMAScript features
+    "sourceType": "module" // Allows for the use of imports
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      { "singleQuote": false, "endOfLine": "auto" }
+    ],
+    "no-duplicate-imports": ["off"],
+    "import/prefer-default-export": ["off"],
+    "no-console": "off",
+    "no-plusplus": "off",
+    "sonarjs/cognitive-complexity": "off",
+    "no-param-reassign": "off",
+    "prefer-destructuring": ["error", { "object": true, "array": false }],
+    "no-unused-vars": "off",
+    "unused-imports/no-unused-imports": ["error"],
+    "unused-imports/no-unused-vars": ["warn"]
+  }
+}
