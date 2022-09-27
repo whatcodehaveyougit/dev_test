@@ -1474,3 +1474,80 @@ button {
 h1 {
   font-family: "Open Sans", sans-serif;
 }
+
+#first-home-page-div {
+  margin-top: 6%;
+}
+#first-home-page-div .row {
+  display: flex;
+  align-items: center;
+}
+#first-home-page-div img {
+  width: 100%;
+}
+
+#second-home-page-div {
+  margin-top: 6%;
+}
+#second-home-page-div .card-body {
+  background-color: #67A7DA;
+  color: white;
+  text-align: center;
+}
+#second-home-page-div .card-body .btn {
+  white-space: inherit;
+  border-radius: 5px;
+}
+#second-home-page-div .card-body-background-2 {
+  background-color: #7FBCED;
+}
+#second-home-page-div .btn-primary p {
+  margin-bottom: 0px;
+}
+
+#header {
+  background-color: #274470;
+  height: 150px;
+}
+#header .header-image-wrapper {
+  padding-left: 12%;
+  padding-top: 2%;
+}
+#header li a {
+  color: white;
+}
+#header img {
+  height: 50px;
+}
+#header #navbarNav {
+  justify-content: center;
+}
+#header .navbar {
+  background-color: #274470;
+  justify-content: center;
+  z-index: 100;
+}
+#header .navbar .navbar-button-custom-class {
+  background-color: #fdfdff;
+}
+#header .navbar .nav-item {
+  text-align: center;
+}
+@media (max-width: 992px) {
+  #header .header-image-wrapper {
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+
+.blue-text {
+  color: #274470;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.center-y {
+  align-items: center;
+}

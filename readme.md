@@ -8,3 +8,4 @@ Pour commencer, en node 16, lancer :
 Le scss est importé dans `src/scss/style.scss`, n'hésite pas a creer les fichiers que tu jugera utile.  
 Au besoin, le fichier `src/js/index.js` sert d'entrée au js qui pourrait etre nécessaire.  
 On a importé les fonts, et tous les assets sont dans `/img`
+# dev_test

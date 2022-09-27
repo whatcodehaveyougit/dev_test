@@ -1,4 +1,36 @@
 #header {
     background-color: $incognito_blue;
-    height: 150px
+    height: 150px;
+    .header-image-wrapper {
+        padding-left: 12%;
+        padding-top: 2%;
+    }
+    li a {
+        color: white;
+    }
+    img {
+        height: 50px;
+    }
+    #navbarNav {
+        justify-content: center;
+    }
+    .navbar {
+        background-color: $incognito_blue;
+        justify-content: center;
+        z-index: 100;
+        .navbar-button-custom-class {
+            background-color: #fdfdff;
+        }
+        .nav-item {
+            text-align: center;
+        }
+    }
+    @media (max-width: 992px) {
+        .header-image-wrapper {
+            padding-left: 0px;
+            text-align: center;
+        }
+    }
 }
+
+
